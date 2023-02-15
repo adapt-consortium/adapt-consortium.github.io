@@ -1,1 +1,1 @@
-# adapt-consortium.github.io
+![ADAPT public profile poster](ADAPT-public-profile.png?raw=true)
