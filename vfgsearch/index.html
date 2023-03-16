@@ -2,22 +2,23 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="An app which demos a simple alternative search over Sweden's Welfare Guide website">
-    <meta name="keywords" content="ADAPT Consortium, AI, welfare, vocational rehab, Sweden, ClojureScript">
+    <meta name="description" content="En app som demonstrerar en enkel alternativ sökning över Sveriges Välfärdsguides hemsida">
+    <meta name="keywords" content="ADAPT Consortium, AI, välfärd, yrkesinriktad rehab, Sverige, ClojureScript">
     <meta name="author" content="ADAPT Consortium">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="A simple alternative search over Sweden's Welfare Guide website" />
+    <meta property="og:title" content="En enkel alternativ sökning över Sveriges Välfärdsguides hemsida" />
     <meta property="og:image" content="img/adapt-logo.png" />
-    <title>A simple alternative search over Sweden's Welfare Guide website</title>
+    <title>En enkel alternativ sökning över Sveriges Välfärdsguides hemsida</title>
     <link rel="icon" href="img/adapt-logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
 </head>
 <body class="has-navbar-fixed-top">
-<noscript>You need to enable JavaScript to run this app.</noscript>
+<noscript>Du måste aktivera JavaScript för att köra den här appen.</noscript>
 <div id="app"></div>
-<script src="js/adapt-vfgsearch-app.js"></script>
-<script>adapt.vfgsearch.app.init();</script>
+<script src="js/adapt-vfgsearch-app-shared.js"></script>
+<script src="js/adapt-vfgsearch-app-sv.js"></script>
+<script>adapt.vfgsearch.app_sv.init();</script>
 </body>
 </html>
